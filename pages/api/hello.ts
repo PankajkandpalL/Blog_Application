@@ -17,10 +17,7 @@ export default async function handler(
       return res.status(401).send(x)
     }
 
-    const { title } = req.body
-
-    console.log(title);
-    
+    const { title } = req.body    
 
     try{
 
